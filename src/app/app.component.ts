@@ -5,24 +5,44 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { BusinessOwnerPage } from "../pages/business-owner/business-owner";
+import { InfluencersPage } from "../pages/influencers/influencers";
+import { PremiumPage } from "../pages/premium/premium";
+import { PaymentPage } from "../pages/payment-history/payment-history";
 
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: 'app.html',
+  styles: [`  .sidebar-button{
+    background: rgba(0, 0, 0, 0.59);
+    color: white;
+  }
+  .sidebar-button:active{
+    color: #00bcd4;
+  }
+  .sidebar-header{
+    color: white;
+    height:180px;
+    box-shadow: 0px 2px 15px #00bcd4;
+  }`]
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   rootPage: any = HomePage;
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{title: string, component: any, icon:any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'Home', component: HomePage, icon:'home' },
+      { title: 'Business Owners', component: BusinessOwnerPage , icon: 'briefcase' },
+      { title: 'Social Influencers', component: InfluencersPage , icon: 'contacts'  },
+      { title: 'Premium Members', component: PremiumPage , icon:'star' },
+      { title: 'Payment History', component: PaymentPage , icon:'logo-usd' },
+      // { title: 'List', component: ListPage }
     ];
 
   }

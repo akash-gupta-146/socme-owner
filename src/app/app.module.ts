@@ -8,12 +8,20 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { BusinessOwnerPage } from "../pages/business-owner/business-owner";
+import { InfluencersPage } from "../pages/influencers/influencers";
+import { PremiumPage } from "../pages/premium/premium";
+import { PaymentPage } from "../pages/payment-history/payment-history";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    BusinessOwnerPage,
+    InfluencersPage,
+    PremiumPage,
+    PaymentPage,
   ],
   imports: [
     BrowserModule,
@@ -23,7 +31,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    BusinessOwnerPage,
+    InfluencersPage,
+    PremiumPage,
+    PaymentPage,
   ],
   providers: [
     StatusBar,

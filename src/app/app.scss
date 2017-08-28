@@ -14,3 +14,67 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+.alpacaBackground{
+    background:url('/assets/icon/alpaka-background-clear.png') !important;
+    background-size:cover;
+}
+.sidebar-background{
+    background: url('/assets/icon/alpaka-background-clear.png');
+    background-size:cover;
+}
+.sidebar-top{
+    height:75px;
+    background:#b3dff3;
+}
+
+// Ionic style changes
+h2{
+    color:black !important;
+}
+// End of iconic styles
+
+//Text styles
+.smTextLarge{
+    font-size:16px !important;
+}
+.smTextMedium{
+    font-size:14px !important;
+}
+.smTextSmall{
+    font-size: 12px !important;
+}
+.smTextXSmall{
+    font-size: 10px !important;
+}
+
+.smParagraph{
+    white-space:pre-line;
+}
+
+
+// End of text styles
+
+// ShapeStyles
+.smRoundedCorner{
+    border-radius: 10px;
+}
+.smSubHeader{
+    box-shadow: 0px 0px 12px black;
+    background: #ffffff;
+    padding-bottom: 10px;
+}
+
+.smCircleAvatar{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    margin-top:10px;
+}
+.smCenter{
+    display: block;
+    margin:auto;
+}
+.smShadow{
+    box-shadow: 0px 0px 10px #3b99fc;
+}
+// End of shape style
