@@ -9,6 +9,7 @@ import { BusinessOwnerPage } from "../pages/business-owner/business-owner";
 import { InfluencersPage } from "../pages/influencers/influencers";
 import { PremiumPage } from "../pages/premium/premium";
 import { PaymentPage } from "../pages/payment-history/payment-history";
+import { MessageListPage } from "../pages/message-list/messgae-list";
 
 @Component({
   templateUrl: 'app.html',
@@ -40,6 +41,7 @@ export class MyApp {
       { title: 'Home', component: HomePage, icon:'home' },
       { title: 'Business Owners', component: BusinessOwnerPage , icon: 'briefcase' },
       { title: 'Social Influencers', component: InfluencersPage , icon: 'contacts'  },
+      { title: 'Messages', component: MessageListPage , icon: 'contacts'  },
       { title: 'Premium Members', component: PremiumPage , icon:'star' },
       { title: 'Payment History', component: PaymentPage , icon:'logo-usd' },
       // { title: 'List', component: ListPage }

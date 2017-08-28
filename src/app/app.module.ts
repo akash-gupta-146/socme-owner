@@ -12,6 +12,7 @@ import { BusinessOwnerPage } from "../pages/business-owner/business-owner";
 import { InfluencersPage } from "../pages/influencers/influencers";
 import { PremiumPage } from "../pages/premium/premium";
 import { PaymentPage } from "../pages/payment-history/payment-history";
+import { MessageListPage } from "../pages/message-list/messgae-list";
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { PaymentPage } from "../pages/payment-history/payment-history";
     ListPage,
     BusinessOwnerPage,
     InfluencersPage,
+    MessageListPage,
     PremiumPage,
     PaymentPage,
   ],
@@ -34,6 +36,7 @@ import { PaymentPage } from "../pages/payment-history/payment-history";
     ListPage,
     BusinessOwnerPage,
     InfluencersPage,
+    MessageListPage,
     PremiumPage,
     PaymentPage,
   ],
