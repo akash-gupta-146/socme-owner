@@ -13,7 +13,7 @@ import { NavController } from 'ionic-angular';
     }
 
     .cash {
-      color: #2fd036 !important;
+      color: #35ac19 !important;
     }
   `]
 })
