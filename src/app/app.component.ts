@@ -20,6 +20,7 @@ import { MessageListPage } from "../pages/message-list/messgae-list";
   .sidebar-button:active{
     color: #00bcd4;
   }
+
   .sidebar-header{
     color: white;
     height:180px;
