@@ -11,10 +11,6 @@ import { NavController } from 'ionic-angular';
     ion-card-header{
       padding-bottom: 0px;
     }
-
-    .cash {
-      color: #35ac19 !important;
-    }
   `]
 })
 export class PaymentPage {
