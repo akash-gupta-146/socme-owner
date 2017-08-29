@@ -74,6 +74,10 @@ ion-col img{
   color: gray;
   display: block;
 }
+
+.progress_bar1 {
+  color: #FF9800 !important;
+}
   
 
 `]

@@ -69,6 +69,10 @@ ion-col img{
   color: #bb0000;
 }
 
+.progress_bar1 {
+  color: #FF9800 !important;
+}
+
 .div_social h6 {
   font-size: 11px;
   color: gray;

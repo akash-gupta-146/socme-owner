@@ -3,7 +3,14 @@ import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'premium',
-  templateUrl: 'premium.html'
+  templateUrl: 'premium.html',
+  styles: [`
+    .progress_bar1 {
+      color: #FF9800 !important;
+    }
+    
+  `
+]
 })
 export class PremiumPage {
 
