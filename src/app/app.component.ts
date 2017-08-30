@@ -21,6 +21,10 @@ import { MessageListPage } from "../pages/message-list/messgae-list";
     color: #00bcd4;
   }
 
+  .apply_color {
+    background-color: #b2dff4 !important;
+}
+
   .sidebar-header{
     color: white;
     height:180px;
