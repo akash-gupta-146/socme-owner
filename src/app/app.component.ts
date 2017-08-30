@@ -14,7 +14,7 @@ import { MessageListPage } from "../pages/message-list/messgae-list";
 @Component({
   templateUrl: 'app.html',
   styles: [`  .sidebar-button{
-    background: rgba(0, 0, 0, 0.59);
+    background: rgb(156, 191, 208);
     color: white;
   }
   .sidebar-button:active{
